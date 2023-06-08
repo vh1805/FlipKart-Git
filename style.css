@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 56px;
+    background-color: #2455f4;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    margin-left: 200px;
+    height: 20px;
+    width: 75px;
+    background-image: url("logo.png");
+    background-size: cover;
+}
+.nav-search{
+    margin-left: 10px;
+}
+.nav-search input{
+    width: 592px;
+    height: 36px;
+}
+
+.nav-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    width: 122px;
+    height: 31px;
+    background-color: white;
+    color: #2874f0;
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+.nav-seller{
+    margin-left: 20px;
+    width: 116px;
+}
+.nav-seller span{
+    width: 116px;
+    height: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: arial;
+}
+.nav-more{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    width: 50px;
+}
+.nav-more p{
+    color: #ffffff;
+    font-size: 16px arial;
+}
+.nav-more select {
+    margin-left: 5px;
+    width: 8px;
+    height: 10px;
+}
+
+.nav-cart{
+    margin-left: 35px;
+    display: flex;
+}
+.nav-cart i {
+    color: #ffffff;
+}
+.nav-cart p{
+    margin-left: 5px;
+    color: #ffffff;
+    font-size: 14px arial;
+}
+.photo-logo{
+    display: flex;
+    align-items: center;
+    height: 113px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.photo{
+    margin-left: 200px;
+}
+.photo1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #212121;
+    font: 14px Roboto, Arial,sans-serif;
+}
+.photo-img{
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+}
+.photo1{
+    margin-left: 40px;
+}
+
+.body-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: rgb(197, 197, 247);
+}
+
+.shahrukh-img{
+    background-size: cover;
+    height: 260px;
+    width: 90%;
+}
+.body-electronics{
+    display: flex;
+    height: 362px;
+    background-color: #ffffff;
+}
+
+.electronics1{
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+    width: 262px;
+}
+.electronics1 h2{
+    margin-top: 70px;
+}
+.view-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 65px;
+    height: 38px;
+    width: 95px;
+    background-color: #2874f0;
+    color: #ffffff;
+}
+.electronics{
+    width: 262px;
+    /* text-align: center; */
+}
+.ele-img{
+    margin-top: 20px;
+    background-size: cover;
+    width: 156px;
+    height: 200px;
+}
+.ele-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ele-img-fly{
+    margin-top: 10px;
+    background-size: cover;
+    width: 100%;
+    height: 262px; 
+}
+footer{
+    height: 650px;
+    background-color:#172337;
+}
+
+.footer{
+    display: flex;
+    align-items: center;clear: right;
+    height: 500px;
+    background-color:#172337;
+}
+.footer1{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about{
+    margin-left: 50px;
+    color: #ffffff;
+}
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flip-logo-img{
+    margin-top: 30px;
+    background-size: cover;
+    height: 100px;
+    width: 400px;
+}
